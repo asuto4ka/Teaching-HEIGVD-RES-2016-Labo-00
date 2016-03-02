@@ -12,10 +12,11 @@ package ch.heigvd.res.lab00;
 public class Flute implements IInstrument {
 
    int fluteVolume = 1;
-   
+   String son = "trilili";
+     
    @Override
    public String play() {
-      throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+         return son;
    }
 
    @Override
